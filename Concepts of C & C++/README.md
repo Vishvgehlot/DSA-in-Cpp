@@ -1,6 +1,6 @@
-#Covers Basic Concepts
+# Covers Basic Concepts
 
-##Basics 
+## Basics 
 - Arrays
 - Functions
 - Modular&Monolith Programming
@@ -8,14 +8,14 @@
 - Pointers
 - Structures
 
-##Parameter Passing
+## Parameter Passing
 - Array as parameter
 - Call by Address
 - Call by Reference
 - Call by Value
 - Creating Array from Functions
 
-##Structure as Parameter
+## Structure as Parameter
 - Call by Address
 - Call by Reference
 - Call by Value
