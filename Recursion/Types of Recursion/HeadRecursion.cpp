@@ -2,16 +2,16 @@
 #include <stdio.h>
 using namespace std;
 
-void func2(int x){
-    if (x>0){               
-        func2(x-1);
-        printf("%d ",x);
+void func(int n){
+    if(n>0){
+        func(n-1);
+        cout<<n<<" ";
     }
 }
 
 int main(){
-    int a = 3;
-    func2(a);
+    int x = 3;
+    func(x);
     return 0;
 }
 
