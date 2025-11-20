@@ -22,7 +22,7 @@ int powv2(int m ,int n){
 }
 
 int main(){
-    cout << pow(2,4)<<endl;
+    cout << pow(2,4)<< endl;
     cout << powv2(2,5);
     return 0;
 }
