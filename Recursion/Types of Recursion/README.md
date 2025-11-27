@@ -1,21 +1,42 @@
-# Types of Recursion 
-There are mainly 6 types of recursion.
+# Types of Recursion
+
+There are mainly **six types of recursion** in programming.  
+Below is a simple explanation of each:
+
+---
 
 ## 1. Head Recursion
-In this type of recursion the recursive function call is done at the **START** of function and all the other code is done after the function calling, so all the other code is compiled during the returning time.
+In this type, the recursive function call happens at the **start** of the function.  
+All other statements are executed **after** the recursive call, during the returning phase of recursion.
+
+---
 
 ## 2. Tail Recursion
-In this type of recursion the recursive function call is done at the **END** of the function so all the code is compiled at the running time i.e before the calling of the recursive function calling.
+Here, the recursive function call is placed at the **end** of the function.  
+All computations happen **before** the recursive call, so no work is done during the returning phase.
+
+---
 
 ## 3. Linear Recursion
-If a recursion function is neither Head nor Tail it is classified in this category i.e there is some code above and below the recursive function call.
+A recursion that makes **only one recursive call** and is **neither head nor tail**.  
+There is code both **before and after** the recursive call.
+
+---
 
 ## 4. Tree Recursion
-In this type of function there are multiple recursive function calls in a single function.
+A function calls itself **more than once** inside the same function.  
+Each call branches into further calls, forming a tree-like structure.
+
+---
 
 ## 5. Indirect Recursion
-In this type of function there are actually **TWO or MORE** function which are called by each other again and again untill the if condition of a function gets failed. Basically its like a basic function recursion but there are two or more function that call each other.
+Two or more functions call one another in a cycle.  
+For example, `funA()` calls `funB()`, and `funB()` calls `funA()`, until a base condition stops the chain.
+
+---
 
 ## 6. Nested Recursion
-In this type of recursion you call the recursive function by giving it the input as a recursive function.
-E.g. - fun(fun(n-1))
+A recursive function call is **passed as an argument** to another recursive call.  
+Example: `fun(fun(n - 1))`
+
+---
