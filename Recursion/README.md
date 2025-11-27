@@ -14,7 +14,7 @@ This repository contains C++ implementations of various recursion techniques and
 - **TreeRecursion.cpp** – Demonstrates tree recursion where each call generates multiple recursive calls.
 
 
-Refer to the [Types of Recursion](#Types of Recursion) for more depth.
+Refer to the [Types of Recursion](#Types-of-Recursion) for more depth.
 
 ---
 
